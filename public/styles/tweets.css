@@ -1,0 +1,60 @@
+article.tweet {
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    margin: 2em;
+    opacity: 0.7;
+}
+ article.tweet:hover {
+    border: 1px solid #000000;
+    opacity: 1;
+}
+ article.tweet:hover .hidden {
+    visibility: visible;
+}
+ article.tweet header {
+    padding: 0.5em;
+    background-color: whitesmoke;
+    position: relative;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+ article.tweet img {
+    width: 3em;
+    border-radius: 5px;
+    background-color:#FFFFFF;
+}
+article.tweet .tweet-body {
+    background-color:#FFFFFF;
+    padding: 0.5em;
+}
+
+ article.tweet footer {
+    border-top: 1px solid #D3D3D3;
+    padding: 0.70em 0.5em;
+    font-size: 0.70em;
+}
+
+ article.tweet .handle {
+    float: right;
+}
+
+ article.tweet .username {
+    position: absolute;
+    top: 0.5em;
+    left: 2.75em;
+    font-size: 1.5em;
+}
+
+ article.tweet .button-group {
+    float: right;
+    color: #66cdaa; 
+}
+
+ article.tweet .button-group i {
+    margin: 0 0.15em;
+}
+
+article.tweet .hidden {
+    visibility: hidden;
+} 

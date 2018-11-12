@@ -1,0 +1,31 @@
+.new-tweet .headCompose {
+    border-bottom: 1px solid #000000;
+}
+
+.new-tweet {
+    background-color:#F5F5F5;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    margin: 2em;
+    padding: 0 1em 1em 1em;
+    position: relative;
+    z-index: 0;
+}
+
+.new-tweet textarea {
+   width: 100%;
+   padding: 0.5em;
+   min-height: 5em;
+   resize: vertical;
+}
+.new-tweet .counter {
+   float: right;
+   padding-right: 0.5em;
+}
+.new-tweet .reachedMax {
+   color: red;
+}
+
+.new-tweet #error_msg {
+    color: red;
+}
