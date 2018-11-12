@@ -4,7 +4,7 @@ Tweeter is a single-page app built with HTML, CSS, JS, jQuery and AJAX on the cl
 
 ## Final Product
 
-[Tweeter](/docs/tweeter.png)
+[Tweeter page](/docs/tweeter.png)
 
 ## Getting Started
 
